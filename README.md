@@ -1,6 +1,6 @@
-### dockerfile-apache-php
+### dockerfile-nginx-php
 
-Docker image with PHP7, intended to use with Nginx
+Docker image with PHP7.2, intended to use with Nginx
 
 ### Usage with Nginx
 
