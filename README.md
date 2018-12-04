@@ -1,6 +1,6 @@
-### dockerfile-nginx-php
+### dockerfile-nginx-php-mysql
 
-Docker image with PHP7.2, intended to use with Nginx
+Docker image with PHP7.2 and Mysql support, intended to use in combination with Nginx
 
 ### Usage with Nginx
 
