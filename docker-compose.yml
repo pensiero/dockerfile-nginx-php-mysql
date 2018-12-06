@@ -6,6 +6,8 @@ services:
     volumes:
       - .:/usr/share/nginx:cached
       - ./config/php_dev.conf:/usr/local/etc/php-fpm.d/zz-log.conf:ro
+    depends_on:
+      - mysql
 
   nginx:
     image: nginx:1.15
