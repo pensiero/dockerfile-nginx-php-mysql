@@ -16,3 +16,12 @@ services:
       - 3003:80
     depends_on:
       - web
+
+  mysql:
+    image: mysql:5.7.24
+    environment:
+      MYSQL_ROOT_PASSWORD: secret
+    volumes:
+      - ./config/mysql.conf:/etc/mysql/conf.d/mysql.conf:ro
+    expose:
+      - 3306
